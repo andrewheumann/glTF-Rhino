@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glTFImport", "glTFImport\glTFImport.csproj", "{D5C378A1-393F-4C39-B641-02A54F094CFA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glTFExport", "glTFExport\glTFExport.csproj", "{70810503-E874-404C-B595-9B0F79E7DDF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glTFModelParser", "glTFModelParser\glTFModelParser.csproj", "{DE5FE84E-B09F-4CA5-B1A9-704E7E72317E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{70810503-E874-404C-B595-9B0F79E7DDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70810503-E874-404C-B595-9B0F79E7DDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70810503-E874-404C-B595-9B0F79E7DDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5FE84E-B09F-4CA5-B1A9-704E7E72317E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5FE84E-B09F-4CA5-B1A9-704E7E72317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5FE84E-B09F-4CA5-B1A9-704E7E72317E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5FE84E-B09F-4CA5-B1A9-704E7E72317E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

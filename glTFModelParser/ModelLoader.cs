@@ -369,7 +369,7 @@ namespace glTFModelParser
                     var oa = new ObjectAttributes
                     {
                         MaterialSource = ObjectMaterialSource.MaterialFromObject,
-                        MaterialIndex = (mp.Material != null) ? materialData[mp.Material.Value] : 0,
+                        MaterialIndex = (mp.Material != null && materialData.ContainsKey(mp.Material.Value)) ? materialData[mp.Material.Value] : 0,
                         Name = m.Name
                     };
 
